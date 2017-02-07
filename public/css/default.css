@@ -1,0 +1,108 @@
+body {
+    background: silver;
+    font: 14px 'trebuchet ms', arial, sans-serif;
+}
+
+/** Structure */
+#header {
+    padding: 20px;
+    background: #12407f;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 4px solid #436fac;
+}
+
+#content {
+    background:#FFE4B5;
+/*    background: #fff;  */
+    padding: 20px;
+}
+
+#footer {
+    background: #12407f;
+    color: #fff;
+    padding: 20px;
+    border-top: 4px solid #436fac;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Links */
+#header a {
+    color: #fff;
+    background: #436fac;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#header a:hover {
+    background: #4d8add
+}
+
+#note {
+  width: 60%;
+  border: 0px solid red;
+}
+
+#homelist {
+  width: 15%;
+  height:100px;
+  border:0px solid green;
+  text-align:left;
+  margin-left: 20px;
+}
+
+#halfpage {
+  width: 50%;
+  height: 150px;
+  border:0px solid green;
+}
+
+#boxInserts{
+  width: 30%;
+  text-align: right;
+}
+/** Forms */
+form {
+    font: 100% verdana,arial,sans-serif;
+    width: 25%;
+}
+
+form label {
+    display: block;
+    float: left;
+/*    width: 150px;   */
+    width: 75px;
+    padding: 0;
+    margin: 10px;
+/*    text-align: right;   */
+    text-align: right;
+}
+
+form input, form select {
+    width: auto;
+/*    margin: 5px 0 0 10px;  */
+    margin: 5px 5px 5px 10px;
+    border: 1px solid gray;
+    padding: 4px;
+    text-align: left;  /* added */
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background: silver;
+}
+
+form input[type=text]{
+   float:left;
+}
+
+form textarea {
+   float:left;
+   margin-left: 10px;
+}
+
+form br {clear: left;}

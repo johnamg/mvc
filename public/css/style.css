@@ -1,0 +1,302 @@
+body {
+   width:100%;
+   margin:0;
+   top:0px;
+/*   background:#FFE4B5 url("dondndtom.jpg")  no-repeat fixed center;  */
+   background:#FFE4B5;
+   min-height: 100%;
+   padding-bottom: 6rem;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+ul.topnav li a:hover {background-color: green;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:100%) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* @media screen and (max-width:680px) { */
+@media screen and (max-width:100%) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+span.highlight {
+        background-color: yellow;
+}
+div#content {
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: black;
+        font-size:15px;
+        text-align: left;
+        width: 90%;
+        border: 0px solid red;
+        margin-left:auto;
+        margin-right:auto;
+        min-height:100%;
+/*        margin-bottom: -100px; */
+}
+.indexpad {
+        background-color: #FAFAD2;
+        opacity: 0.6;
+        margin-top: 8%;
+        padding-left: 9%;
+        width: 40%;
+}
+.showpad {
+        background-color: transparent;
+        margin-top: 14%;
+        color:blue;
+        text-align:right;
+        float: right;
+        display: inline;
+        height: 550px;
+        width: 400px;
+}
+.addpickpad {
+        background-color: #FAFAD2;
+        opacity: 0.6;
+        margin-top:14%;
+        margin-right:25px;
+        float:right;
+        display: inline;
+        font-size: 20px;
+        text-align:right;
+        width:200px;
+}
+.adddatepad {
+        margin-top:400px;
+}
+div#showform {
+        position: absolute;
+        background-color: #FAFAD2;
+        color:black;
+        font-size:20px;
+        float:right;
+        right:0;
+        display:inline-block;
+        display:inline;
+        border: 2px solid blue;
+        vertical-align: right;
+        width:auto;
+        opacity: 0.9;
+        line-height:150%;
+        text-align:left;
+        margin-top:0px;
+        margin-right:25px;
+}
+div#addpickform {
+        position: absolute;
+        background-color: #FAFAD2;
+        color:black;
+        font-size:20px;
+        float:right;
+        right:0;
+        display:inline-block;
+        display:inline;
+        border: 2px solid blue;
+        vertical-align: right;
+        width:auto;
+        opacity: 0.7;
+        line-height:150%;
+        text-align:left;
+        margin-top:0px;
+        margin-right:25px;
+}
+div#picks {
+        position: absolute;
+        background-color: #FAFAD2;
+        color: black;
+        font-size: 20px;
+        float: right;
+        right:0;
+        display:inline-block;
+        display:inline;
+        border: 3px solid #c3c3c3;
+        vertical-align: right;
+        width:auto;
+        opacity: 0.5;
+        margin-top: 145px;
+        margin-right:25px;
+        font-weight: bold;
+}
+div#winners {
+        position: absolute;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        float: right;
+        right:0;
+        display:inline-block;
+        display:inline;
+        border: 3px solid #c3c3c3;
+        vertical-align: right;
+        width:80%;
+        opacity: 1.0;
+        margin-top: 250px;
+        margin-right:25px;
+        margin-bottom:125px;
+        font-weight: bold;
+}
+div#dates {
+        position: absolute;
+        background-color: #FAFAD2; opacity: 0.5;
+        color: black;
+        font-size: 20px;
+        float: right;
+        right:0;
+        display:inline-block;
+        display:inline;
+        vertical-align: right;
+        border: 3px solid #c3c3c3;
+        width:auto;
+        margin-top: 300px;
+        margin-right:25px;
+        font-weight: bold;
+}
+div#reviewpicks {
+        position: absolute;
+        background-color: #FAFAD2;
+        color: black;
+        font-size: 20px;
+        float:right;
+        right:0;
+        display: inline-block;
+        display: inline;
+        border: 2px solid #c3c3c3;
+        vertical-align:right;
+        width: auto;
+        opacity: 0.6;
+        margin-top: 270px;
+        margin-right:25px;
+        font-weight: bold;
+}
+select {
+    font-size:15px;
+    font-weight: bold;
+    width: auto;
+}
+input {
+    font-size:15px;
+    font-weight: bold;
+    width: 200px;
+}
+textarea {
+    font-size:15px;
+    font-weight: bold;
+}
+input.submit {
+    width: 70px;
+    text-align: center;
+}
+input.checkbox {
+    font-size:10px;
+    width: 20px;
+    height: 20px;
+    text-align: left;
+}
+input.myname{
+  width:310px;
+}
+input.numeric {
+    width: 100px;
+    text-align: right;
+}
+input.checknum {
+    width: 50px;
+    text-align: right;
+}
+input.mydate {
+    width: 190px;
+}
+input.mycomment {
+    width: 200px;
+}
+input.runbutton {
+        background-color: darkgreen;
+        color: white;
+        border: 1px solid black;
+        font-weight: bold;
+}
+input.filename {
+       maxlength:19;
+       size="19";
+       width:"215px";
+}
+div#footer {
+    position: relative;
+    border: 0px solid white;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+/*
+    width: 20%;
+    margin-top: 30%;
+    margin-left: 500px;
+    margin-right: auto;
+*/
+/*
+    margin-bottom: auto;
+*/
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+/*    margin-bottom: -25px; */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 15px;
+}
+.site-footer {
+  background-color: green;
+}
+
+table#list {
+  border: 0px solid red;
+}
