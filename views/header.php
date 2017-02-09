@@ -40,7 +40,7 @@ echo'<ul class="topnav" id="myTopnav">';
         case 'owner':
           echo '<li><a href='.URL.'>Home</a></li>';
           echo '<li><a href='.URL.'help>Help</a></li>';
-          echo '<li><a href='.URL.'register>Register</a></li>';
+//          echo '<li><a href='.URL.'register>Register</a></li>';
           echo '<li><a href='.URL.'note>Notes</a></li>';
           echo '<li><a href='.URL.'dashboard>Dashboard</a></li>';
           echo '<li><a href='.URL.'user>Users</a></li>';
@@ -74,7 +74,7 @@ echo'<ul class="topnav" id="myTopnav">';
       // echo "User NOT default Logged in<br>";
       echo '<li><a href='.URL.'>Home</a></li>';
       echo '<li><a href='.URL.'help>Help</a></li>';
-      echo '<li><a href='.URL.'register>Register</a></li>';
+//      echo '<li><a href='.URL.'register>Register</a></li>';
       echo '<li><a href='.URL.'login>Login</a></li>';
       break;
   }

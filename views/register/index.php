@@ -1,8 +1,11 @@
 <h1>Register</h1>
-
-<form id="note" action="register/run" method="post">
-
-    <label>Register</label><input type="text" name="register" /><br />
+<p>Create a username and password here</p>
+<form id="note" method="post" action="<?php echo URL;?>register/create">
+    <label>Login</label><input type="text" name="login" /><br />
     <label>Password</label><input type="password" name="password" /><br />
-    <label></label><input type="submit" />
+    <label>Role</label>
+        <select name="role">
+            <option value="default">Default</option>
+        </select><br />
+    <label>&nbsp;</label><input type="submit" />
 </form>
